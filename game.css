@@ -1,0 +1,56 @@
+body {
+    background-color: rgba(192, 192, 192, 0.445);
+}
+
+/* Heading */
+h1 {
+    color: rgb(69, 2, 2);
+    font-size: 45px;
+}
+  
+/* Grid 3x3 */
+#b1, #b2, #b3, #b4, #b5, 
+#b6, #b7, #b8, #b9 {
+    width: 80px;
+    height: 65x;
+    margin: auto;
+    border: 1px solid maroon;
+    border-radius: 8px;
+    font-size: 35px;
+    text-align: center;
+    cursor: crosshair;
+}
+  
+/* New Game Button */
+#but {
+    box-sizing: border-box;
+    width: 125px;
+    height: 40px;
+    border: 1px solid rgb(69, 2, 2);
+    margin: auto;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: maroon;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+  
+/* Player's Turn */
+#print {
+    font-family: Arial, Helvetica, sans-serif;
+    color: maroon;
+    font-size: 20px;
+}
+  
+/* Main Container */
+#main {
+    text-align: center;
+}
+  
+/* Instructions */
+#ins {
+    font-family: Arial, Helvetica, sans-serif;  
+    color: maroon;
+    font-size: 20px;
+}

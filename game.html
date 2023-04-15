@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="game.css" />
+  </head>
+  <body>
+    <div id="main">
+      <h1>TIC TAC TOE</h1>
+
+      <!-- Instructions -->
+      <p id="ins">
+        Start Game by Selecting a Space<br /><br />First Player is
+        <b>Player X</b><br />And<br />Second Player is <b>Player O</b>
+      </p>
+
+      <br /><br />
+      <!-- Box Grid 3x3 -->
+      <input type="text" id="b1" onclick="myfunc_1(); myfunc();" />
+
+      <input type="text" id="b2" onclick="myfunc_2(); myfunc();" />
+
+      <input type="text" id="b3" onclick="myfunc_3(); myfunc();" />
+      <br /><br />
+
+      <input type="text" id="b4" onclick="myfunc_4(); myfunc();" />
+
+      <input type="text" id="b5" onclick="myfunc_5(); myfunc();" />
+
+      <input type="text" id="b6" onclick="myfunc_6(); myfunc();" />
+      <br /><br />
+
+      <input type="text" id="b7" onclick="myfunc_7(); myfunc();" />
+
+      <input type="text" id="b8" onclick="myfunc_8();myfunc();" />
+
+      <input type="text" id="b9" onclick="myfunc_9();myfunc();" />
+
+      <!-- Box Grid Ends Here  -->
+      <br /><br /><br />
+      <!-- New Game Button -->
+      <button id="but" onclick="myfunc_10()">New Game</button>
+
+      <br /><br />
+      <!-- Shows Player's Turn -->
+      <p id="print"></p>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="game.js"></script>
+  </body>
+</html>
